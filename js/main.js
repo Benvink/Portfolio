@@ -281,12 +281,12 @@ AOS.init({
   };
   goHere();
 
-  // $("#myScrollspy").scrollspy({ offset: -75 });
+  $("#myScrollspy").scrollspy({ offset: -75 });
 
   var TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
-    this.loopNum = 0;
+    this.loopNum = 1;
     this.period = parseInt(period, 10) || 10000;
     this.txt = "";
     this.tick();
